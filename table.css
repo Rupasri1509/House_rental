@@ -1,0 +1,14 @@
+table{
+    width:100%;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    border-color: black;
+    border-style: solid;
+  }
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }

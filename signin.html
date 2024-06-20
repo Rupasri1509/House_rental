@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="signin.css">
+    <title>signin</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="card" style="width: 23rem;border-radius: 25px;background-color:#f0f5f5">
+        <div class="card-body">
+            <h1 class="card-title" ><b>Sign In Here </b></h1>
+            <form name="Form1" action="signin.php" method="get">
+                <table align="right" >
+                    <tr>
+                        <td><b>Email:</b></td>
+                        <td><input type="email" name="u" id="" size="25"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><b>Password: </b></td>
+                        <td> <input type=password name="p" value="" size=25></td>
+                    </tr>
+                    <tr>
+                        <td><b>Sign In as: </b></td>
+                        <td> <select name="l" size="1">
+                            
+                        <option value="owner">Owner</option>
+                        <option value="tenant">Tenant</option>
+                        </select></td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+                <center>
+                    <br>
+                <input type="submit" value="sign in" class="btn-primary">
+                
+            </center>
+            </form> <center>
+                <a href="signup.html" class="btn-primary"><br><b>New User Sign UP Here <br> <br></b></a>
+            </center>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
